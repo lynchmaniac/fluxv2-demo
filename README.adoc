@@ -1,0 +1,23 @@
+= Notes
+
+lynchmaniac@cloudshell:~$ flux create secret git flux-system --url=ssh://git@github.com/lynchmaniac/fluxv2-demo-tenant-repo.git
+✚ deploy key: ecdsa-sha2-nistp384 AAAAE2VjZHNhLXNoYTItbmlzdHAzODQAAAAIbmlzdHAzODQAAABhBC+xavNV0G/cmjOV51jZRehsX9ABUszeqUjpKZIojxY2c9L6Yg/uo68LpUh9wJkEKyayIGRxR6wKzq7nWQTIvCUIXnvI+Lcu+Ni9nj6rXjVpO8pADbsTdUVAlVkb/hV0kA==
+
+► git secret 'flux-system' created in 'flux-system' namespace
+
+
+
+
+
+lynchmaniac@cloudshell:~$ flux create secret git flux-system --url=ssh://git@github.com/lynchmaniac/fluxv2-demo-tenant-repo.git
+✚ deploy key: ecdsa-sha2-nistp384 AAAAE2VjZHNhLXNoYTItbmlzdHAzODQAAAAIbmlzdHAzODQAAABhBCJS7yWpIP+HpALBXy8L0RlyYeuJtDt2ktTYhJfp+uD5TsvhMnRbXCr0uY2L5Vu8tUv5EiPWBx8DArO68M/efiFK1eLthk0u/WPge76KXF6wYWxicnb0BD1maG6o+6R83w==
+
+► git secret 'flux-system' created in 'flux-system' namespace
+
+
+
+
+ynchmaniac@cloudshell:~$ flux create secret git flux-system --url=ssh://git@github.com/lynchmaniac/fluxv2-demo.git
+✚ deploy key: ecdsa-sha2-nistp384 AAAAE2VjZHNhLXNoYTItbmlzdHAzODQAAAAIbmlzdHAzODQAAABhBJrh/GouW+jh6cl4DCn8iakNi4NVzyevOz+VuDI+aSpXV8LlfvHTfWwZZFuVAGHrur1xlzsMkCDjc5PVL6n9HYbKOxzUsZVObkzfJViJ18e+2rXWbo25Ssp2oTSFLkgWAA==
+
+► git secret 'flux-system' created in 'flux-system' namespace
